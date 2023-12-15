@@ -156,8 +156,9 @@ console.log( 'The gemString variable looks like this', gemString);
 //       ['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']
 //     Now, console.log the new array.
 
-
-
+let colorfulGems = gems.concat(colors);
+console.log( 'This new array combines the gems array and the colors array', colorfulGems);
+ //found documentation on how to do this at :  https://www.w3schools.com/jsref/jsref_concat_array.asp
 
 // DO NOT MODIFY
 // Used for automated testing
