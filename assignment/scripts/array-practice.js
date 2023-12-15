@@ -47,13 +47,16 @@ console.log( 'The second animal is', secondAnimal);
 //      You'll need to console.log `animalArray` and `lastAnimal` to make
 //      sure that your code does what you want. (Never trust your code until
 //      you have proof that it works!)
-let lastAnimal = animalArray[animalArray.length - 1];
-console.log('The last animal in the array is',lastAnimal);
+let lastAnimal = animalArray[3];
+console.log( 'The last animal in the animal array is', lastAnimal);
 console.log('The full array of animals is',animalArray);
+
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
-
+lastAnimal = animalArray[animalArray.length - 1];
+console.log('The last animal in the array is',lastAnimal);
+console.log('The full array of animals is',animalArray);
 
 
 // Adding & Removing Array Items
