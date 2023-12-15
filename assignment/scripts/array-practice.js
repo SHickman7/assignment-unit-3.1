@@ -103,7 +103,9 @@ let colors = ['orange', 'yellow', 'green', 'teal'];
 //      Don't forget! Use console.log to verify that the `colors`
 //      array only contains three items now, AND to verify that `lastColor`
 //      contains the value "teal".)
-
+let lastColor = colors.pop();
+console.log('The color that was removed from the colors array is:', lastColor);
+console.log('The updated color array is now', colors);
 
 // Example: Remove the first animal using the Array.shift method.
 removedAnimal = animalArray.shift();
