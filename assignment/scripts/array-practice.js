@@ -146,6 +146,8 @@ console.log('Gems in reverse alphabetical order',gems);
 //       "Emerald and Diamond and Tourmaline and Topaz"
 //     🔥 You'll need to research the .join Array method. 🔥
 //     Don't forget to console.log `gemString`...
+let gemString = gems.join(' and ');
+console.log( 'The gemString variable looks like this', gemString);
 
 
 // 5.d (STRETCH) TODO: Make a new array `colorfulGems` that combines 
